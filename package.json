@@ -1,0 +1,22 @@
+{
+  "name": "node_site_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "backend_dev": "cd ./backend && npm i && nodemon -w ",
+    "backend": "cd ./backend && npm i && node index.js",
+    "frontend": "cd ./frontend && npm i && npm start start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Terrorboy/node_site_template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Terrorboy/node_site_template/issues"
+  },
+  "homepage": "https://github.com/Terrorboy/node_site_template#readme"
+}

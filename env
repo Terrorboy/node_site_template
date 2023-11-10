@@ -1,0 +1,17 @@
+# ===========================
+# * DB INFO
+# ---------------------------
+MYSQL_HOST=localhost
+MYSQL_PORT=3306
+MYSQL_ROOT_PASSWORD=!root
+MYSQL_DATABASE=node_db
+MYSQL_USER=node_db
+MYSQL_PASSWORD=node_db
+# ---------------------------
+
+# ===========================
+# * API INFO
+# ---------------------------
+REACT_APP_API_URL = 'http://localhost:9000'
+FRONTEND_URL = 'http://localhost:3000'
+# ---------------------------

@@ -1,0 +1,8 @@
+# react - front
+localhost {
+    reverse_proxy localhost:3000
+}
+# express - backend
+api.localhost {
+    reverse_proxy localhost:9000
+}

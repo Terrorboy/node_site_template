@@ -1,0 +1,18 @@
+version: '3'
+services:
+    mariadb:
+        container_name: 'mariaDB'
+        image: mariadb:10
+        ports:
+            - 3306:3306
+        volumes:
+            - ./_docker_db/conf.d:/etc/mysql/conf.d
+            - ./_docker_db/db_data:/var/lib/mysql
+        env_file: .env
+        environment:
+            TZ: Asia/Seoul
+        networks:
+            - mysql
+        restart: always
+networks:
+    mysql:
